@@ -12,7 +12,7 @@ import com.mjk.complaint.entity.Conversation;
 import com.mjk.complaint.repository.ConversationRepository;
 
 @Service
-public  class ConversationServiceImplementation implements ConversationService{
+public   class ConversationServiceImplementation implements ConversationService{
 	@Autowired
 	ConversationRepository conversationRepository;
 	@Override

@@ -74,7 +74,7 @@ public class ConversationController {
 			return allExtractedConversations;
 			
 		} catch (Exception e) {
-			// code missing for expection handling 
+			// code missing for exception handling 
 			System.out.println(e);
 			
 		}

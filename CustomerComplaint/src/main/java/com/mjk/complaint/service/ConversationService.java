@@ -17,7 +17,7 @@ public interface ConversationService {
 	public Conversation insertConversation(Conversation user)throws Exception;
     public Conversation getConversationByIssueId(int issueId) throws Exception;
     public String deleteConversation(int issueId) throws Exception;
-	
+    
 	
 	public Conversation getConversationByTitle(String title)throws Exception;
 	
